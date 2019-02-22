@@ -1,0 +1,144 @@
+.wrapper 
+{
+    max-width:100%;
+    margin:auto;
+
+}
+.float
+{
+    margin-left: 50px;
+}
+div > figure
+{
+  
+    margin:auto;
+    width: 300px;
+    float: left;
+    text-align: center;
+    
+}
+figure > img
+{
+    width:290px;
+    height:200px;
+
+}
+figcaption
+{
+    background-color:rgb(230, 178, 134);
+    color:black;
+    margin: 5px;
+}
+figcaption > div
+{
+    color: rgb(165, 34, 41);
+    font-size: 18px;
+}
+.clear
+{
+    clear:both;
+}
+body
+{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.About
+{
+   
+    margin: auto;
+    text-align: justify;
+   /* background-color: silver;*/
+   color: white;
+   font-size: 17px;
+   width: 90%;
+   margin: auto;
+}
+h2
+{
+    color: rgb(143, 9, 9);
+    text-transform: uppercase;
+    font-size: 18px;
+    
+}
+section,aside
+{
+    float:left;
+    width:45%;
+    padding:1%;
+    margin:1%;
+    border: 2px solid red;
+    border-radius:30px;
+}
+.styled_para
+{
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+
+
+}
+.columns
+{
+    margin:auto;
+    width: 95%;
+}
+
+.columns h2
+{
+    background: silver;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    border-radius:30px;
+
+}
+section span
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: yellow;
+}
+section img
+{
+    height:310px ;
+    width: 100%;
+}
+aside figcaption,aside img
+{
+    /*font-size: 15px;
+    width: 180px;
+    margin: auto;*/
+    font-size: 15px;
+     
+    width: 120px;
+    
+ 
+    
+    text-align: center;
+
+}
+.position
+{
+    color:white;
+    position: relative;
+    top:0;
+    font-size: 17px;
+    color: yellow;
+}
+aside img
+{
+    width: 100%;
+    height: 290px;
+}
+aside figure
+{
+    margin-left: 70px;
+}
+.About > p
+{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid red;
+}
