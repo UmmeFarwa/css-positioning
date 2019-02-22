@@ -1,0 +1,35 @@
+.wrapper 
+{
+    max-width:100%;
+    margin:auto;
+
+}
+.float
+{
+    margin-left: 50px;
+}
+div > figure
+{
+  
+    margin:auto;
+    width: 300px;
+    float: left;
+    text-align: center;
+    
+}
+figure > img
+{
+    width:290px;
+    height:200px;
+
+}
+figcaption
+{
+    background-color:rgb(230, 178, 134);
+    color:black;
+    margin: 5px;
+}
+body
+{
+    background-color: black;
+}
