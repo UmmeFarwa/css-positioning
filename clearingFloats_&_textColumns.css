@@ -1,0 +1,68 @@
+.wrapper 
+{
+    max-width:100%;
+    margin:auto;
+
+}
+.float
+{
+    margin-left: 50px;
+}
+div > figure
+{
+  
+    margin:auto;
+    width: 300px;
+    float: left;
+    text-align: center;
+    
+}
+figure > img
+{
+    width:290px;
+    height:200px;
+
+}
+figcaption
+{
+    background-color:rgb(230, 178, 134);
+    color:black;
+    margin: 5px;
+}
+figcaption > div
+{
+    color: rgb(165, 34, 41);
+    font-size: 18px;
+}
+.clear
+{
+    clear:both;
+}
+body
+{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.About
+{
+   
+    margin: auto;
+    text-align: justify;
+   /* background-color: silver;*/
+   color: white;
+   font-size: 17px;
+   width: 90%;
+   margin: auto;
+}
+h2
+{
+    color: rgb(143, 9, 9);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.About > p
+{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid red;
+}
